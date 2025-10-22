@@ -80,7 +80,7 @@ generateBtn.addEventListener("click", async () => {
     window.URL.revokeObjectURL(url);
 
     statusDiv.style.color = "green";
-    statusDiv.textContent = "Report downloaded successfully!";
+    statusDiv.textContent = "Download initiated successfully!";
   } catch (error) {
     console.error(error);
     statusDiv.style.color = "red";
