@@ -1,6 +1,6 @@
 # Reportify
 
-Reportify is a simple web application that generates downloadable Word reports (`.docx`) based on user input. It has a lightweight **C# backend** (NET API) and a **static frontend** built with HTML, CSS, and JavaScript.
+Reportify is a simple web application that generates downloadable Word reports (`.docx`) based on user input. It has a lightweight **C# backend** (ASP.NET API) and a **static frontend** built with HTML, CSS, and JavaScript.
 
 ---
 
@@ -8,7 +8,7 @@ Reportify is a simple web application that generates downloadable Word reports (
 
 ## 🧩 Stack
 - **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** C# (.NET)
+- **Backend:** C# (.NET 8)
 
 ---
 
