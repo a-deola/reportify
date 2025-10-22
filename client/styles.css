@@ -93,10 +93,32 @@ input {
   transition: all 0.3s ease;
 }
 
+@media (max-width: 400px) {
+  body {
+    padding: 5px;
+  }
 
-.preview {
-  margin-top: 15px;
-  font-size: 0.9rem;
-  color: #4a4a4a;
-  font-style: italic;
+  .container {
+    max-width: 95%;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  select,
+  input,
+  .toggle-btn,
+  #generateBtn {
+    font-size: 0.85rem;
+    padding: 7px;
+  }
+}
+
+@media (max-width: 300px) {
+  .toggle-group {
+    flex-direction: column;
+  }
 }
