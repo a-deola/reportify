@@ -1,0 +1,102 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+.container {
+  width: 350px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+h1 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.toggle-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle-btn {
+  flex: 1;
+  margin: 0 2px;
+  padding: 8px;
+  border: 1px solid #d1d1d1;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.toggle-btn.active {
+  background: #fabb18;
+  color: #fff;
+  border-color: #fabb18;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #d1d1d1;
+}
+
+#generateBtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #fabb18;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#generateBtn:hover {
+  background-color: #e0a00f;
+}
+#status {
+  display: none;
+  margin-top: 12px;
+  padding: 8px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 500;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+
+.preview {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #4a4a4a;
+  font-style: italic;
+}

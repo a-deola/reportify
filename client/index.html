@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reportify</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="status">Error</div>
+    <div class="container">
+      <h1>Generate Financial Report</h1>
+
+      <div class="input-group">
+        <label>Report Type</label>
+        <div class="toggle-group">
+          <button type="button" class="toggle-btn active" data-type="P&L">
+            P&L
+          </button>
+          <button type="button" class="toggle-btn" data-type="Balance Sheet">
+            Balance Sheet
+          </button>
+          <button type="button" class="toggle-btn" data-type="Cash Flow">
+            Cash Flow
+          </button>
+        </div>
+      </div>
+
+      <!-- Reporting Year -->
+      <div class="input-group">
+        <label for="year">Reporting Year</label>
+        <select id="year">
+          <option value="">Select Year</option>
+        </select>
+      </div>
+
+      <!-- Client Name/ID -->
+      <div class="input-group">
+        <label for="client">Client Name or ID</label>
+        <input type="text" id="client" placeholder="Enter client name or ID" />
+      </div>
+
+      <!-- Generate Button -->
+      <button id="generateBtn">Generate Report</button>
+
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

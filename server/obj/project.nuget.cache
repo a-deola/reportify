@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "qMhms9dHcpcisES83kBjCNaco8XQ4vvFY29m70jyRxEM4JJlSTb2jriMhK9PAViPLe/HqQVOUChSY82w2xbroA==",
+  "success": true,
+  "projectFilePath": "/home/adeola/Projects/Jobs/reportify/server/server.csproj",
+  "expectedPackageFiles": [
+    "/home/adeola/.nuget/packages/documentformat.openxml/3.3.0/documentformat.openxml.3.3.0.nupkg.sha512",
+    "/home/adeola/.nuget/packages/documentformat.openxml.framework/3.3.0/documentformat.openxml.framework.3.3.0.nupkg.sha512",
+    "/home/adeola/.nuget/packages/system.io.packaging/8.0.1/system.io.packaging.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
