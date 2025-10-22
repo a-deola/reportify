@@ -7,7 +7,7 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("https://reportify-ui.netlify.app/")
+        policy.WithOrigins("https://reportify-ui.netlify.app")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
