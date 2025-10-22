@@ -53,7 +53,7 @@ generateBtn.addEventListener("click", async () => {
   await new Promise(requestAnimationFrame);
 
   try {
-    const response = await fetch("http://localhost:5299/api/generate-report", {
+    const response = await fetch("https://reportify-0uwx.onrender.com/api/generate-report", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
